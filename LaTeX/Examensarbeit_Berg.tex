@@ -1,0 +1,190 @@
+ \documentclass[paper=a4, DIV=13, BCOR=12mm, twoside=on, onecolumn=on, open = any, titlepage =on, parskip =half-, headsepline = on, footsepline = on, chapterprefix = on, sectionprefix = on, appendixprefix = off, fontsize = 11pt, numbers = noenddot, abstract = off]{scrreprt}
+\input{preamble}
+\setcounter{tocdepth}{2}
+
+\usepackage{blindtext}
+\usepackage{todonotes}
+\usepackage{titlesec, blindtext, color}
+\usepackage{setspace}
+
+
+\begin{document}
+\newpage
+\thispagestyle{plain}
+
+\pagenumbering{Roman}
+
+
+\include{titlepage}
+\thispagestyle{empty}
+\newpage
+\thispagestyle{empty}
+
+%\addchap*{Abstract}
+%\onehalfspacing
+%
+%
+%\addchap*{Zusammenfassung}
+%\onehalfspacing
+
+
+%\singlespacing
+%\newpage
+%\listoffigures
+%\newpage
+\tableofcontents
+%\thispagestyle{empty}
+\cleardoublepage
+%\newpage
+\pagenumbering{arabic}
+\par \singlespacing
+\KOMAoptions{DIV=13, BCOR=12mm, twoside=on}
+
+\definecolor{gray75}{gray}{0.75}
+\newcommand{\hsp}{\hspace{20pt}}
+\titleformat{\chapter}[hang]{\huge\bfseries}{\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\huge\bfseries}
+\chapter{Einleitung}
+\label{sec:einleitung}
+\onehalfspacing
+
+\newpage
+\par\singlespacing
+\chapter{Ausgangssituation}
+
+\par\singlespacing
+\section{Systemische Rahmenbedigungen}
+\onehalfspacing
+Der Unterrichtsplanung zugrunde liegen zum einen der Rahmenplan Informatik für die Gymnasiale Oberstufe (Vgl. \cite{oberstufe:09}) sowie das schulinterne Curriculum des Gymnasium Ohmoor. Im folgenden werden die für die durchgeführte Unterrichtspraxis relevanten Inhalte kurz erläutert.
+\subsection{Rahmenplan}
+Der Rahmenplan Informatik für die Gymnasiale Oberstufe in Hamburg spezifiziert die \textit{Objektorientierte Modellierung} als verbindlichen Inhalt, wobei eine explizite Forderung nach der "`Erarbeitung der Sprachelemente der verwendeten objektorientierten Programmiersprache"' (\cite[S. 17]{oberstufe:09}) besteht. Des weiteren sind verschiedene Anforderungsbereiche definiert, durch die sowohl fachliche als auch überfachliche Kompetenzen erworben und überprüft werden sollen. Der für die zu untersuchende Unterrichtssituation relevante Kompetenz bezieht sich auf den Bereich des \textit{Darstellen und Interpretieren}, in dem die Schülerinnen und Schüler "`Modelle und Algorithmen sowohl grafisch als auch verbal"' beschreiben können sollen (Vgl. \cite[S.16]{oberstufe:09}). Ein großer Fokus wurde planungsbedingt auch auf die Kompetenz des \textit{Kommunizieren und Kooperieren} gelegt (siehe hierzu Abschnitt \textbf{\ref{sec:vorgehensweisen}}).
+
+\par \singlespacing
+\subsection{Curriculum des Gymnasium Ohmoor}
+\onehalfspacing
+
+
+\begin{figure}[htb]
+\centering
+\includegraphics[scale=0.7]{images/NXT-Stein.png} 
+\caption[Der NXT-Stein]{Der NXT-Stein \cite[S. 42]{berns:10}}
+\label{fig:NXT Stein}
+\end{figure}
+
+
+\par \singlespacing
+ \section{Inhaltliche Ziele}
+\onehalfspacing
+
+
+
+\par \singlespacing
+ \section{Lerngruppen}
+\onehalfspacing
+Der in dieser Arbeit untersuchte Lerngegenstand wurde in zwei Vergleichsgruppen mit methodisch variierten Vorgehensweisen unterrichtet. Diese werden im Folgenden als Vergleichsgruppe \textsc{\textbf{A}} und \textsc{\textbf{B}} bezeichnet.
+\todo{Nochmal umformulieren, da zu nah an U-Entwürfen!!!}
+Vergleichsgruppe \textsc{\textbf{A}}:\\
+Der erste Informatik-Wahlpflichtkurs auf grundlegendem Niveau umfasst insgesamt 16 Schülerinnen und Schüler, davon sind sechs weiblich und zehn männlich. Der Unterricht findet regelhaft dienstags von 14:00 Uhr bis 15:30 Uhr statt. 
+Es handelt sich um einen motivierten Kurs, in dem etwa die Hälfte der SuS bisher noch keinen Informatikunterricht, die andere Hälfte seit Jahrgang 9 den Wahlpflichtkurs Informatik besucht hat.
+Die Leistungsspanne des Kurses ist sehr groß: Einige der SuS waren bereit vor Beginn der Unterrichtseinheit in der Lage, lauffähige Programme mithilfe von Java zu entwickeln, eine der SuS ist teilweise kaum in der Lage, den Computer sachgemäß zu bedienen und hat bereits Schwierigkeiten beim Öffnen eines BlueJ-Projekts.
+
+Vergleichsgruppe \textsc{\textbf{B}}:\\
+Der zweite Informatik-Wahlpflichtkurs auf grundlegendem Niveau umfasst insgesamt 17 Schülerinnen und Schüler, davon sind vier weiblich und dreizehn männlich. Der Unterricht findet regelhaft donnerstags von 8:00 Uhr bis 9:30 Uhr statt. 
+Es handelt sich um einen motivierten, kleinen Kurs, den ich zum zweiten Halbjahr übernommen habe. Die Leistungsspanne ist relativ groß, was sich in der kürzlich geschriebenen Klausur gezeigt hat – jedoch befindet sich die Mehrheit der SuS im oberen Leistungsdrittel. Einige SuS sind sehr programmieraffin und probieren eigenständig programmiertechnische Verfahren im Unterricht aus, die über das geforderte Maß hinausgehen. Schwächeren SuS fällt das Programmieren an sich noch etwas schwerer. Einer der SuS setzt sich leistungstechnisch deutlich von der Gruppe ab, da er durch sein Praktikum bereits umfassende Programmierkenntnisse in Java besitzt und diese selbstständig und mühelos im Unterricht umsetzen kann. Auch nimmt er immer wieder die Rolle eines Lernberaters ein und hilft seinen MitschülerInnen bei Schwierigkeiten. Bei Nachfragen antwortet er umfassend und adressatengerecht.
+
+
+\chapter{Die Praxissituation}
+
+
+\par \singlespacing
+ \section{BlueJ}
+
+\todo{Umformulieren, da Direktzitat aus MA}
+\label{sec:bluej}
+Die Java-Entwicklungsumgebung BlueJ wurde an der Monash University in Australien entwickelt. Das Ziel von BlueJ war von Beginn an klar definiert: Es sollte eine einfache Umgebung für den Einstieg in die objektorientierte Programmierung geschaffen werden (vgl. \cite[S.14]{barnes:03}).
+
+Es handelt sich jedoch bei der Entwicklung objektorientierter Programme mit BlueJ keinesfalls um die Benutzung einer reduzierten Version von Java. BlueJ läuft, wie andere Entwicklungsumgebungen, auf dem aktuellen Java Development Kit (JDK). Auch als Compiler und virtuelle Maschine (JVM) wird Software der Firma Oracle (bis 2010 Sun Microsystems) verwendet (vgl. \cite[S.15]{barnes:03}).
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=\textwidth]{images/firstprogram.png}
+\caption{Die Benutzeroberfläche von BlueJ}
+\label{fig:BlueJ UI}
+\end{figure}
+
+Inzwischen wird nicht nur in den Universitäten BlueJ als Werkzeug zur Einführung in die Programmiersprache Java und die objektorientierte Programmierung genutzt. Auch im Schulkontext hat die intuitive Bedienung und übersichtliche Gestaltung Anklang gefunden, da BlueJ "`eine einfache Entwurfssicht für die Analyse gegebener Lösungen und für die Planung neuer Lösungen"' \cite[S.6]{ehmann:09} zur Verfügung stellt. Eine weitere Besonderheit besteht darin, dass -- im Gegensatz zu den meisten anderen Entwicklungsumgebungen -- in BlueJ "`schnell einige Objekte erzeugt und sofort untersucht werden [können]"' \cite[S.6]{ehmann:09}. Hierzu bietet BlueJ die \emph{Inspect-}Funktion an, die über das Kontextmenü eines erzeugten Objekts erreichbar ist und die Werte der Feldvariablen genau dieses Exemplars einer Klasse anzeigt.
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=\textwidth]{images/linienfinder_bluej.png} 
+\caption{BlueJ-Beispiel zum Finden einer Linie}
+\label{fig:Bsp BlueJ Linienfinder}
+\end{figure}
+
+
+\onehalfspacing
+
+
+\par \singlespacing
+ \section{Bausteine der Unterrichtsplanung}
+\onehalfspacing
+
+Die Unterrichtseinheit zum Lerngegenstand Schleifenkonstrukte besteht aus zwei Bausteinen, die inhaltlich ineinandergreifen, jedoch methodisch andere lerntheoretische Ansätze verfolgen.
+
+Der erste Baustein besteht aus einem BlueJ-Projekt, welches ich durch meine Tätigkeit als Übungsgruppenbetreuerin an der Universität Hamburg kennengelernt habe. Dieses Projekt ist an das Lehrbuch zur Objektorientierten Programmierung mit Java und BlueJ von Barnes und Kölling angelehnt und versucht über kurze Methodenrümpfe, die von den Lernenden analysiert werden sollen, verschiedene Arten von Schleifenkonstrukten zu vermitteln.\\
+Zusätzlich zu diesem Kurzprojekt haben meine SuS ein Arbeitsblatt mit verschiedenen Aufträgen bekommen, welche sie schrittweise durch das Projekt führen sollten. 
+
+\par \singlespacing
+ \section{Vorgehensweisen}
+ \label{sec:vorgehensweisen}
+\onehalfspacing
+
+
+\par \singlespacing
+ \chapter{Reflexion der Herangehensweisen}
+\onehalfspacing
+
+
+\par \singlespacing
+ \section{Kritische Betrachtung}
+\onehalfspacing
+I
+\par \singlespacing
+ \section{Resultierende Fragestellung}
+\onehalfspacing
+
+\singlespacing
+\chapter{Alternativkonzeption}
+\onehalfspacing
+
+
+\par \singlespacing
+ \section{Vermittlung des beschriebenen Programmierparadigmas}
+\onehalfspacing
+
+
+
+\par \singlespacing
+ \section{Schlussfolgerungen für die Unterrichtseinheit}
+\onehalfspacing
+
+\newpage
+\chapter{Fazit und Ausblick}
+\onehalfspacing
+
+
+\newpage
+\input{bibliography}
+\newpage
+
+\KOMAoptions{headsepline=off}
+
+
+\cleardoublepage
+\newpage
+\thispagestyle{empty}
+\vspace*{\fill}
+"Hiermit versichere ich an Eides statt, dass ich die Arbeit selbstständig verfasst und keine anderen als die angegebenen Hilfsmittel – insbesondere keine im Quellenverzeichnis nicht benannten Internet-Quellen – benutzt habe, die Arbeit vorher nicht in einem anderen Prüfungsverfahren eingereicht habe und die eingereichte schriftliche Fassung der auf dem elektronischen Speichermedium entspricht."\\
+
+Hamburg, 8.\,März 2016 \hspace*{\fill} \dots \dots \dots \dots \dots \dots \dots \dots \dots\\
+\hspace*{\fill} Pamina Maria Berg \quad $\,$
+\end{document}
