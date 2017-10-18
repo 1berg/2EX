@@ -6,7 +6,7 @@
 \usepackage{todonotes}
 \usepackage{titlesec, blindtext, color}
 \usepackage{setspace}
-
+\usepackage{ragged2e}
 
 \begin{document}
 \newpage
@@ -40,17 +40,24 @@
 %\newpage
 \pagenumbering{arabic}
 \par \singlespacing
-\KOMAoptions{DIV=13, BCOR=12mm, twoside=on}
-
-
+\renewcommand*{\dictumwidth}{.6667\textwidth}
 \chapter{Einleitung}
 \label{sec:einleitung}
 \onehalfspacing
 
+\dictum[Hans Aebli]{\justifying {"`Man kann sich Vorstellungen und Begriffe nicht in fertiger Form einverleiben. Man muss sie nachschaffen, nachkonstruieren."'}}
+
+Die Lehre des Programmierens ist stark von einem schrittweisen Abarbeiten von Programmierparadigmen in einer ausgewählten Programmiersprache geprägt. In Lehrbüchern werden beispielsweise anhand von Projekten die klassischen Begriffe der Objektorientierung \emph{Klasse, Objekt, Methode, Parameter} vor- und zum Durcharbeiten am Computer bereitgestellt.
+
+Informatische (Grund-)Bildung sollte als Teil der Allgemeinbildung (\todo{Zitat Breier 1994 raussuchen}) auch allgemeine Konzepte vermitteln. \textsc{Hubwieser} weist in seinem Standardwerk zur Informatik-Didaktik auf einen leider immer noch auftretenden Sachverhalt hin:
+\begin{quote}
+Beim Betrachten entsprechender Rahmenpläne entsteht der Eindruck, dass entweder produktbezogene Anwenderschulungen oder Programmierkurse im Kleinen in diesem Unterricht durchgefuührt werden. (\cite[S.40]{hubwieser:07} aus \cite{koerber:93})
+\end{quote}
+
 \newpage
 \par\singlespacing
 \chapter{Ausgangssituation}
-
+Es werden nun zunächst die systemischen Rahmenbedingungen, sowie die Voraussetzungen, die sich aus den inhaltlichen Lernzielen und den Lerngruppen ergeben, dargestellt.
 \par\singlespacing
 \section{Systemische Rahmenbedigungen}
 \onehalfspacing
@@ -63,60 +70,61 @@ Der Rahmenplan Informatik für die Gymnasiale Oberstufe in Hamburg spezifiziert 
 \onehalfspacing
 Die Fachschaft Informatik des Gymnasium Ohmoor konkretisiert im Schulinternen Curriculum die allgemein formulierten Vorgaben aus dem Rahmenplan Informatik. So ist im zweiten Semester der Gymnasialen Oberstufe das Thema \textit{Objektorientierte Modellierung/Programmierung von Grafiksystemen mit Java} angesiedelt (Vgl. \cite[S.6f.]{ohmoor:16}). Als verbindlicher Inhalt ist hier unter anderem die "`Erarbeitung von Sprachelementen: [...] Kontrollstrukturen"' (\cite[S.7]{ohmoor:16}) genannt, zu denen auch das Programmierparadigma der Schleifenkonstrukte gehört.
 
-
-
-
 \par \singlespacing
  \section{Inhaltliche Ziele}
 \onehalfspacing
-
+Die inhaltlichen Ziele der Unterrichteinheit waren sowohl fachlicher als auch überfachlicher Art und lassen sich wie folgt zusammenfassen:
+\begin{itemize}
+\item Die SuS analysieren das BlueJ-Projekt, um sich mit den wesentlichen Merkmalen von Schleifen als Kontrollstrukturen in der Programmierung vertraut zu machen.
+\item Die SuS erläutern anhand eines Minimalbeispiels in Java-Syntax den Ablauf einer \emph{for-, while-} oder \emph{do-while-}Schleife, indem sie eine Kurz-Vorführung im Plenum vorbereiten und durchführen.
+\end{itemize}
+Die hierzu passenden Einzellernziele sind:
+\begin{itemize}
+\item Die SuS geben mindestens die prägnanten Merkmale des Quellcodes an und beschreiben den grundsätzlichen Programmablauf im BlueJ-Projekt und sind bestenfalls in der Lage, eigene Schleifenkonstrukte zu implementieren und die Geeignetheit des gewählten Konstrukts zu begründen.
+\item Die SuS beschreiben mindestens umgangssprachlich den Zusammenhang zwischen dem von ihnen gewählten Schleifenkonstrukt und ihrer Präsentation und beurteilen bestenfalls die Passung von Präsentation und Schleifenkonstrukt der eigenen und anderen Gruppen.
+\item Die SuS stellen mindestens auf Nachfrage die wesentlichen Unterschiede der drei Schleifenkonstrukte dar und vergleichen diese bestenfalls im Hinblick auf verschiedene Einsatzszenarien.
+\end{itemize}
 
 
 \par \singlespacing
  \section{Lerngruppen}
 \onehalfspacing
 Der in dieser Arbeit untersuchte Lerngegenstand wurde in zwei Vergleichsgruppen mit methodisch variierten Vorgehensweisen unterrichtet. Diese werden im Folgenden als Vergleichsgruppe \textsc{\textbf{A}} und \textsc{\textbf{B}} bezeichnet.
-\todo{Nochmal umformulieren, da zu nah an U-Entwürfen!!!}
+
 
 Vergleichsgruppe \textsc{\textbf{A}}:\\
-Der erste Informatik-Wahlpflichtkurs auf grundlegendem Niveau umfasst insgesamt 16 Schülerinnen und Schüler, davon sind sechs weiblich und zehn männlich. Der Unterricht findet regelhaft dienstags von 14:00 Uhr bis 15:30 Uhr statt. 
-Es handelt sich um einen motivierten Kurs, in dem etwa die Hälfte der SuS bisher noch keinen Informatikunterricht, die andere Hälfte seit Jahrgang 9 den Wahlpflichtkurs Informatik besucht hat.
-Die Leistungsspanne des Kurses ist sehr groß: Einige der SuS waren bereit vor Beginn der Unterrichtseinheit in der Lage, lauffähige Programme mithilfe von Java zu entwickeln, eine der SuS ist teilweise kaum in der Lage, den Computer sachgemäß zu bedienen und hat bereits Schwierigkeiten beim Öffnen eines BlueJ-Projekts.
+Der Informatik-Wahlpflichtkurs auf grundlegendem Niveau umfasst insgesamt 17 Schülerinnen und Schüler, davon sind vier weiblich und dreizehn männlich. Der Unterricht findet regelhaft donnerstags von 8:00 Uhr bis 9:30 Uhr statt. 
+Es handelt sich um einen motivierten, kleinen Kurs, den ich zum zweiten Halbjahr übernommen habe. Die Leistungsspanne ist relativ groß, was sich in der kürzlich geschriebenen Klausur gezeigt hat – jedoch befindet sich die Mehrheit der SuS im oberen Leistungsdrittel. Einige SuS sind sehr programmieraffin und probieren eigenständig programmiertechnische Verfahren im Unterricht aus, die über das geforderte Maß hinausgehen. Schwächeren SuS fällt das Programmieren an sich noch etwas schwerer. Einer der SuS setzt sich leistungstechnisch deutlich von der Gruppe ab, da er durch sein Praktikum bereits umfassende Programmierkenntnisse in Java besitzt und diese selbstständig und mühelos im Unterricht umsetzen kann. Auch nimmt er immer wieder die Rolle eines Lernberaters ein und hilft seinen MitschülerInnen bei Schwierigkeiten. Bei Nachfragen antwortet er umfassend und adressatengerecht.\todo{Nochmal umformulieren, da zu nah an U-Entwürfen!!!}
 
 Vergleichsgruppe \textsc{\textbf{B}}:\\
-Der zweite Informatik-Wahlpflichtkurs auf grundlegendem Niveau umfasst insgesamt 17 Schülerinnen und Schüler, davon sind vier weiblich und dreizehn männlich. Der Unterricht findet regelhaft donnerstags von 8:00 Uhr bis 9:30 Uhr statt. 
-Es handelt sich um einen motivierten, kleinen Kurs, den ich zum zweiten Halbjahr übernommen habe. Die Leistungsspanne ist relativ groß, was sich in der kürzlich geschriebenen Klausur gezeigt hat – jedoch befindet sich die Mehrheit der SuS im oberen Leistungsdrittel. Einige SuS sind sehr programmieraffin und probieren eigenständig programmiertechnische Verfahren im Unterricht aus, die über das geforderte Maß hinausgehen. Schwächeren SuS fällt das Programmieren an sich noch etwas schwerer. Einer der SuS setzt sich leistungstechnisch deutlich von der Gruppe ab, da er durch sein Praktikum bereits umfassende Programmierkenntnisse in Java besitzt und diese selbstständig und mühelos im Unterricht umsetzen kann. Auch nimmt er immer wieder die Rolle eines Lernberaters ein und hilft seinen MitschülerInnen bei Schwierigkeiten. Bei Nachfragen antwortet er umfassend und adressatengerecht.
-
-Vergleichsgruppe \textsc{\textbf{C}}:\\
 \todo{Beschreibung des PGW-Profil-Kurses}
-Die dritte Vergleichsgruppe ist der PGW-Profil-Kurs, bestehend aus 26 Schülerinnen und Schülern, deren Leistungsniveau in etwa dem der Vergleichsgruppe \textsc{\textbf{B}} entspricht. 
+Die erste Vergleichsgruppe ist der PGW-Profil-Kurs, bestehend aus 26 Schülerinnen und Schülern, deren Leistungsniveau sich eher heterogen gestaltet, wobei sich im Vergleich zu Gruppe \textsc{\textbf{B}} keine echte Leistungsspitze abzeichnet. Das Vorwissen der SuS in Bezug auf die zu untersuchende Unterrichtseinheit war (bedingt durch verschiedene Projektphasen der SuS in anderen Fächern) etwas geringer als bei der Vergleichsgruppe \textsc{\textbf{A}}, jedoch nicht in diesem Maße, als dass eine Lernhürde bei der Analyse von Quelltext zu erwarten gewesen wäre. 
+
+Beide Vergleichsgruppen waren bereits sicher im Umgang mit der Entwicklungsumgebung \emph{BlueJ} und hatten in unterschiedlichen Kontexten eigene Programmiererfahrungen mit Java machen können.
 
 \chapter{Die Praxissituation}
-
-
+\onehalfspacing
+ Im folgenden werden die für die Planung der Praxissituation maßgeblichen Details und Entscheidungen, sowie die Vorgehensweisen für die Durchführung beschrieben. Es wird zunächst eine kurze Information 
 \par \singlespacing
  \section{BlueJ}
-
+\onehalfspacing
 \todo{Hier wäre noch Spielraum...}
 \label{sec:bluej}
 Die Java-Entwicklungsumgebung BlueJ wurde an der Monash University in Australien mit dem Ziel entwickelt, eine Umgebung für Programmieranfänger mit einer einfachen Benutzerschnittstelle zu schaffen (Vgl. \cite[S.14]{barnes:03}). \textsc{Barnes} und \textsc{Kölling} betonen die besondere Geeignetheit von BlueJ in der Lehre und führen diese auf die native Visualisierung der Klassenstruktur und die damit einhergehende Möglichkeit, mit den Objekten direkt zu interagieren, "`ohne Testklassen schreiben zu müssen"' (Vgl. \cite[S.15]{barnes:03}). 
 
 %Es handelt sich jedoch bei der Entwicklung objektorientierter Programme mit BlueJ keinesfalls um die Benutzung einer reduzierten Version von Java. BlueJ läuft, wie andere Entwicklungsumgebungen, auf dem aktuellen Java Development Kit (JDK). Auch als Compiler und virtuelle Maschine (JVM) wird Software der Firma Oracle (bis 2010 Sun Microsystems) verwendet (Vgl. \cite[S.15]{barnes:03}).
 
-\begin{figure}[htb]
-\centering
-\includegraphics[width=\textwidth]{images/firstprogram.png}
-\caption{Die Benutzeroberfläche von BlueJ}
-\label{fig:BlueJ UI}
-\end{figure}
-
+%\begin{figure}[htb]
+%\centering
+%\includegraphics[scale=0.3]{images/firstprogram.png} 
+%\caption{Die Benutzeroberfläche von BlueJ}
+%\label{fig:BlueJ UI}
+%\end{figure}
+%\todo{anderes Bild einfügen}
 %Inzwischen wird nicht nur in den Universitäten BlueJ als Werkzeug zur Einführung in die Programmiersprache Java und die objektorientierte Programmierung genutzt. Auch im Schulkontext hat die intuitive Bedienung und übersichtliche Gestaltung Anklang gefunden, da BlueJ "`eine einfache Entwurfssicht für die Analyse gegebener Lösungen und für die Planung neuer Lösungen"' \cite[S.6]{ehmann:09} zur Verfügung stellt. Eine weitere Besonderheit besteht darin, dass -- im Gegensatz zu den meisten anderen Entwicklungsumgebungen -- in BlueJ "`schnell einige Objekte erzeugt und sofort untersucht werden [können]"' \cite[S.6]{ehmann:09}. Hierzu bietet BlueJ die \emph{Inspect-}Funktion an, die über das Kontextmenü eines erzeugten Objekts erreichbar ist und die Werte der Feldvariablen genau dieses Exemplars einer Klasse anzeigt.
 
-\onehalfspacing
-
-
 \par \singlespacing
- \section{Bausteine der Unterrichtsplanung}
+ \section{Bausteine der Unterrichtsplanung und Didaktische Entscheidungen}
 \onehalfspacing
 
 Die Unterrichtseinheit zum Lerngegenstand Schleifenkonstrukte besteht aus zwei Bausteinen, die inhaltlich ineinandergreifen, jedoch methodisch andere lerntheoretische Ansätze verfolgen.
@@ -127,18 +135,19 @@ Zusätzlich zu diesem Kurzprojekt haben meine SuS ein Arbeitsblatt mit verschied
 Den zweiten Baustein haben sich die SuS jeweils eigenständig erarbeitet: Auf Grundlage ihrer basalen Syntaxkenntnisse haben die SuS in Gruppen verschiedene "`leere"' Schleifenkonstrukte in Java bekommen, deren Ablauf sie jeweils zunächst analysieren und dann in Form einer interaktiven Gruppenpräsentation darstellen sollten. Hierbei war es den SuS freigestellt, welche Hilfmittel sie dazu einsetzen und welche Aktivitäten vorgeführt werden können. Es sollte lediglich deutlich werden, wie die von ihnen vorgestellte Sequenz von Anweisungen mit der von ihnen ausgewählten \emph{for-, while-} oder \emph{do-while-}Schleife im Zusammenhang steht.
 
 \par \singlespacing
- \section{Vorgehensweisen}
+ \section{Vorgehensweisen und Methodische Entscheidungen}
  \label{sec:vorgehensweisen}
 \onehalfspacing
 
+Die beiden Bausteine wurden zum Zweck eines produktiven Vergleichs in jeweils umgekehrter Reihenfolge mit den Vergleichsgruppen durchgeführt. So hat Vergleichsgruppe \textsc{\textbf{A}} zunächst mit der interaktiven Vorführung, also dem enaktiven Ansatz, begonnen und sich danach mit dem BlueJ-Projekt beschäftigt -- der Vergleichsgruppe \textsc{\textbf{B}} wurde zuerst der Quelltext und das Arbeitsblatt ausgegeben, mit deren Erarbeitung sie in Partnerarbeit und ohne weitere Einhilfen beauftragt wurden \todo{unschöne Formulierung}.
 
 \par \singlespacing
- \chapter{Reflexion der Herangehensweisen}
+\chapter{Reflexion der Herangehensweisen}
 \onehalfspacing
-
+ Bei der Reflexion der Herangehensweisen und der Praxissituationen wird es nun darum gehen, die beiden in ihrer Reihenfolge variierten Vorgehensweisen kritisch zu betrachten, in Bezug zueinander zu setzen und eine daraus resultierende Fragestellung zu entwickeln und untersuchen.
 
 \par \singlespacing
- \section{Kritische Betrachtung}
+\section{Kritische Betrachtung}
 \onehalfspacing
 
 - Lernhürden bei Start mit Programmierung aufgetreten\\
@@ -157,9 +166,11 @@ Den zweiten Baustein haben sich die SuS jeweils eigenständig erarbeitet: Auf Gr
 
 Fällt der Umgang mit Programmiersprachen und -konzepten leichter, wenn neben der theoretischen Vermittlung auch eine Handlungsorientierung abseits des Computers stattfindet?
 
-\singlespacing
+\par \singlespacing
 \chapter{Alternativkonzeption}
 \onehalfspacing
+
+Aufgrund der Untersuchung und Reflexion der Praxissituation werden die daraus resultierenden Konsequenzen und Fragestellungen nun in einer Alternativkonzeption der Unterrichtsstunde zum Einen und mithilfe von Schlussfolgerungen für die gesamte Unterrichtseinheit der \emph{OOP/OOM} zum Anderen verarbeitet \todo{hier fehlt noch ein schöner Halbsatz}
 
 - statt autodidaktisch v. SuS beispielhaft gemeinsam im Vorwege oder verknüpft mit EA, so dass vorgegebene Schleifen nachgespielt werden sollen\\
 - IDEE: Anknüpfen/Verknüpfen von EA mit Programmierprojekt\\
