@@ -12,8 +12,6 @@
 \contentsline {section}{\numberline {3.3}Vorgehensweise und Methodische Entscheidungen}{6}{section.3.3}
 \contentsline {chapter}{\numberline {4}Reflexion der Herangehensweisen}{8}{chapter.4}
 \contentsline {section}{\numberline {4.1}Kritische Betrachtung}{8}{section.4.1}
-\contentsline {section}{\numberline {4.2}Resultierende Fragestellung}{8}{section.4.2}
-\contentsline {chapter}{\numberline {5}Alternativkonzeption}{9}{chapter.5}
-\contentsline {section}{\numberline {5.1}Vermittlung des beschriebenen Programmierparadigmas}{9}{section.5.1}
-\contentsline {section}{\numberline {5.2}Schlussfolgerungen f\IeC {\"u}r die Unterrichtseinheit}{9}{section.5.2}
-\contentsline {chapter}{\numberline {6}Fazit und Ausblick}{10}{chapter.6}
+\contentsline {section}{\numberline {4.2}Resultierende Fragestellung}{9}{section.4.2}
+\contentsline {chapter}{\numberline {5}Schlussfolgerungen f\IeC {\"u}r die Unterrichtseinheit}{10}{chapter.5}
+\contentsline {chapter}{\numberline {6}Fazit und Ausblick}{11}{chapter.6}
