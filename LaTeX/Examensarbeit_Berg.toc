@@ -12,6 +12,6 @@
 \contentsline {section}{\numberline {3.3}Vorgehensweise und Methodische Entscheidungen}{7}{section.3.3}
 \contentsline {chapter}{\numberline {4}Reflexion der Herangehensweisen}{9}{chapter.4}
 \contentsline {section}{\numberline {4.1}Kritische Betrachtung}{9}{section.4.1}
-\contentsline {section}{\numberline {4.2}Analyse und resultierende Fragestellung}{10}{section.4.2}
+\contentsline {section}{\numberline {4.2}Analyse und resultierende Fragestellung}{11}{section.4.2}
 \contentsline {chapter}{\numberline {5}Schlussfolgerungen f\IeC {\"u}r die Unterrichtseinheit}{12}{chapter.5}
 \contentsline {chapter}{\numberline {6}Fazit und Ausblick}{13}{chapter.6}
