@@ -45,17 +45,17 @@
 \label{sec:einleitung}
 \onehalfspacing
 
-\dictum[Hans Aebli]{\justifying {"`Man kann sich Vorstellungen und Begriffe nicht in fertiger Form einverleiben. Man muss sie nachschaffen, nachkonstruieren."'}}
+%\dictum[Hans Aebli]{\justifying {"`Man kann sich Vorstellungen und Begriffe nicht in fertiger Form einverleiben. Man muss sie nachschaffen, nachkonstruieren."'}}
 
-Die Lehre des Programmierens ist stark von einem schrittweisen Abarbeiten von Programmierparadigmen in einer ausgewählten Programmiersprache geprägt. In Lehrbüchern werden beispielsweise anhand von Projekten die klassischen Begriffe der Objektorientierung \emph{Klasse, Objekt, Methode, Parameter} vor- und zum Durcharbeiten am Computer bereitgestellt. Auch in der Universitätslehre ist dieses Vorgehen in gewisser Weise Standard und hat sich bis in Online-Lernplattformen zum Erlernen von Programmiersprachen durchgesetzt. 
+Die Lehre des Programmierens ist stark von einem schrittweisen Abarbeiten von Programmierparadigmen in einer ausgewählten Programmiersprache geprägt. In Lehrbüchern werden beispielsweise anhand von Projekten die klassischen Begriffe der Objektorientierung \emph{Klasse, Objekt, Methode, Parameter} vor- und zum Durcharbeiten am Computer bereitgestellt. Auch in der Universitätslehre ist dieses Vorgehen in gewisser Weise Standard und hat sich auch in den Online-Lernplattformen zum Erlernen von Programmiersprachen durchgesetzt. 
 
-Informatische (Grund-)Bildung sollte als Teil der Allgemeinbildung (Vgl. \cite{breier:94}) auch allgemeine Konzepte der Informatik vermitteln. \textsc{Hubwieser} weist in seinem Standardwerk zur Informatik-Didaktik auf einen leider immer noch auftretenden Sachverhalt hin:
+Informatische (Grund-)Bildung sollte als Teil der Allgemeinbildung (vgl. \cite{breier:94}) auch allgemeine Konzepte der Informatik vermitteln. \textsc{Hubwieser} weist in seinem Standardwerk zur Informatik-Didaktik auf einen leider immer noch auftretenden Sachverhalt hin:
 \begin{quote}
 Beim Betrachten entsprechender Rahmenpläne entsteht der Eindruck, dass entweder produktbezogene Anwenderschulungen oder Programmierkurse im Kleinen in diesem Unterricht durchgefuührt werden. (\cite[S.40]{hubwieser:07} aus \cite{koerber:93})
 \end{quote}
-Um wirklich tragfähige Vorstellungen von Informatik bei den SuS zu etablieren bedarf es jedoch mehr als einer Anwenderschulung oder einem Programmierkurs, bei dem ein Großteil der Lernenden daran scheitert  das zu Lernende anzuwenden, da sie damit beschäftigt sind eine beliebige Syntax auswendig zu lernen. (zu vgl. Artikel: \cite{humbert:02}, \cite{modrow:11})
+Um wirklich tragfähige Vorstellungen von Informatik bei den SuS zu etablieren, bedarf es jedoch mehr als einer Anwenderschulung oder einem Programmierkurs, bei dem ein Großteil der Lernenden daran scheitert,  das zu Lernende anzuwenden, da sie damit beschäftigt sind, eine beliebige Syntax auswendig zu lernen. (vgl. \cite{humbert:02}, \cite{modrow:11})
 
-Die im Rahmen der Unterrichtsheit \emph{Objektorientierte Modellierung und Programmierung} durchgeführte und im folgenden vorgestellte Unterrichtssituation diente dem Versuch, grundlegende Programmierparadigmen sowohl mithilfe von als auch abseits vom Quellcode zu vermitteln.
+Die im Rahmen der Unterrichtsheit \emph{Objektorientierte Modellierung und Programmierung} durchgeführte und im folgenden vorgestellte Unterrichtssituation diente dem Versuch, grundlegende Programmierparadigmen sowohl mithilfe dieses klassischen Ansatzes auch abseits vom Quellcode zu vermitteln.
 
 
 \newpage
@@ -66,16 +66,16 @@ Es werden nun zunächst die systemischen Rahmenbedingungen, sowie die Voraussetz
 \par\singlespacing
 \section{Systemische Rahmenbedigungen}
 \onehalfspacing
-Der Unterrichtsplanung zugrunde liegen zum einen der Rahmenplan Informatik für die Gymnasiale Oberstufe (Vgl. \cite{oberstufe:09}) sowie das schulinterne Curriculum des Gymnasium Ohmoor. Im folgenden werden die für die durchgeführte Unterrichtspraxis relevanten Inhalte kurz erläutert.
+Der Unterrichtsplanung zugrunde liegen zum einen der Rahmenplan Informatik für die Gymnasiale Oberstufe (vgl. \cite{oberstufe:09}) sowie das schulinterne Curriculum des Gymnasium Ohmoor. Im folgenden werden die für die durchgeführte Unterrichtspraxis relevanten Inhalte kurz erläutert.
 \par\singlespacing
 \subsection{Rahmenplan}
 \onehalfspacing
-Der Rahmenplan Informatik für die Gymnasiale Oberstufe in Hamburg spezifiziert die \textit{Objektorientierte Modellierung} als verbindlichen Inhalt, wobei eine explizite Forderung nach der "`Erarbeitung der Sprachelemente der verwendeten objektorientierten Programmiersprache"' (\cite[S. 17]{oberstufe:09}) besteht. Des weiteren sind verschiedene Anforderungsbereiche definiert, durch die sowohl fachliche als auch überfachliche Kompetenzen erworben und überprüft werden sollen. Der für die zu untersuchende Unterrichtssituation relevante Kompetenz bezieht sich auf den Bereich des \textit{Darstellen und Interpretieren}, in dem die Schülerinnen und Schüler "`Modelle und Algorithmen sowohl grafisch als auch verbal"' beschreiben können sollen (Vgl. \cite[S.16]{oberstufe:09}). Ein großer Fokus wurde planungsbedingt auch auf die Kompetenz des \textit{Kommunizieren und Kooperieren} gelegt (siehe hierzu Abschnitt \textbf{\ref{sec:vorgehensweisen}}).
+Der Rahmenplan Informatik für die Gymnasiale Oberstufe in Hamburg spezifiziert die \textit{Objektorientierte Modellierung} als verbindlichen Inhalt, wobei eine explizite Forderung nach der "`Erarbeitung der Sprachelemente der verwendeten objektorientierten Programmiersprache"' (\cite[S. 17]{oberstufe:09}) besteht. Des weiteren sind verschiedene Anforderungsbereiche definiert, durch die sowohl fachliche als auch überfachliche Kompetenzen erworben und überprüft werden sollen. Die für die zu untersuchende Unterrichtssituation relevante Kompetenz bezieht sich auf den Bereich des \textit{Darstellen und Interpretieren}, in dem die Schülerinnen und Schüler "`Modelle und Algorithmen sowohl grafisch als auch verbal"' beschreiben können sollen (vgl. \cite[S.16]{oberstufe:09}). Ein großer Fokus wurde planungsbedingt auch auf die Kompetenz des \textit{Kommunizieren und Kooperieren} gelegt (siehe hierzu Abschnitt \textbf{\ref{sec:vorgehensweisen}}).
 
 \par \singlespacing
 \subsection{Curriculum des Gymnasium Ohmoor}
 \onehalfspacing
-Die Fachschaft Informatik des Gymnasium Ohmoor konkretisiert im Schulinternen Curriculum die allgemein formulierten Vorgaben aus dem Rahmenplan Informatik. So ist im zweiten Semester der Gymnasialen Oberstufe das Thema \textit{Objektorientierte Modellierung/Programmierung von Grafiksystemen mit Java} angesiedelt (Vgl. \cite[S.6f.]{ohmoor:16}). Als verbindlicher Inhalt ist hier unter anderem die "`Erarbeitung von Sprachelementen: [...] Kontrollstrukturen"' (\cite[S.7]{ohmoor:16}) genannt, zu denen auch das Programmierparadigma der Schleifenkonstrukte gehört.
+Die Fachschaft Informatik des Gymnasium Ohmoor konkretisiert im schulinternen Curriculum die allgemein formulierten Vorgaben aus dem Rahmenplan Informatik. So ist im zweiten Semester der Gymnasialen Oberstufe das Thema \textit{Objektorientierte Modellierung/Programmierung von Grafiksystemen mit Java} angesiedelt (vgl. \cite[S.6f.]{ohmoor:16}). Als verbindlicher Inhalt ist hier unter anderem die "`Erarbeitung von Sprachelementen: [...] Kontrollstrukturen"' (\cite[S.7]{ohmoor:16}) genannt, zu denen auch das Programmierparadigma der Schleifenkonstrukte gehört.
 
 \par \singlespacing
  \section{Inhaltliche Ziele}
@@ -100,11 +100,9 @@ Der in dieser Unterrichtseinheit untersuchte Lerngegenstand wurde in zwei Vergle
 
 
 \underline{Vergleichsgruppe \textsc{\textbf{A}}:}\\
-Der Informatik-Wahlpflichtkurs auf grundlegendem Niveau umfasst insgesamt 17 Schülerinnen und Schüler \footnote[1]{Im folgenden SuS genannt}, davon sind vier weiblich und dreizehn männlich. Der Unterricht findet regelhaft donnerstags von 8:00 Uhr bis 9:30 Uhr statt. 
-Es handelt sich um einen motivierten, kleinen Kurs, den ich zum zweiten Halbjahr übernommen habe. Die Leistungsspanne ist relativ groß, was sich in der kürzlich geschriebenen Klausur gezeigt hat – jedoch befindet sich die Mehrheit der SuS im oberen Leistungsdrittel. Einige SuS sind sehr programmieraffin und probieren eigenständig programmiertechnische Verfahren im Unterricht aus, die über das geforderte Maß hinausgehen. Schwächeren SuS fällt das Programmieren an sich noch etwas schwerer. Einer der SuS setzt sich leistungstechnisch deutlich von der Gruppe ab, da er durch sein Praktikum bereits umfassende Programmierkenntnisse in Java besitzt und diese selbstständig und mühelos im Unterricht umsetzen kann. Auch nimmt er immer wieder die Rolle eines Lernberaters ein und hilft seinen MitschülerInnen bei Schwierigkeiten. Bei Nachfragen antwortet er umfassend und adressatengerecht.\todo{Nochmal umformulieren, da zu nah an U-Entwürfen!!!}
+Der Informatik-Wahlpflichtkurs auf grundlegendem Niveau umfasst insgesamt 17 Schülerinnen und Schüler \footnote[1]{Im folgenden SuS genannt}. Die Leistungsspanne ist relativ groß, da es mehrere SuS gibt, die sehr progammieraffin sind und sich auch außerhalb des Unterrichts mit Programmierung beschäftigen. Einer der SuS setzt sich leistungstechnisch deutlich von der Gruppe ab, da er durch sein Praktikum bereits umfassende Programmierkenntnisse in Java besitzt und diese selbstständig und mühelos im Unterricht umsetzen kann. Im Gegensatz dazu, gibt es auch SuS, die versuchen, sich bei Arbeitsphasen aus dem Unterrichtsgeschehen herauszuziehen und dadurch größere Schwierigkeiten besitzen, Quellcode zu verstehen, bearbeiten oder zu produzieren. Insgesamt fällt schwächeren SuS das Programmieren an sich noch etwas schwerer.
 
 \underline{Vergleichsgruppe \textsc{\textbf{B}}:}\\
-\todo{Beschreibung des PGW-Profil-Kurses}
 Die zweite Vergleichsgruppe ist der PGW-Profil-Kurs, bestehend aus 26 Schülerinnen und Schülern, deren Leistungsniveau sich eher heterogen gestaltet, wobei sich im Vergleich zu Gruppe \textsc{\textbf{A}} keine echte Leistungsspitze abzeichnet. Das Vorwissen der SuS in Bezug auf die zu untersuchende Unterrichtseinheit war (bedingt durch verschiedene Projektphasen der SuS in anderen Fächern) etwas geringer als bei der Vergleichsgruppe \textsc{\textbf{A}}, jedoch nicht in diesem Maße, als dass eine Lernhürde bei der Analyse von Quelltext zu erwarten gewesen wäre. Insgesamt ist anzumerken, dass der Großteil der Gruppe zwar motiviert und konzentriert an Programmieraufgaben arbeitet, im Vergleich zur Gruppe \textsc{\textbf{A}} anteilig gesehen weniger SuS sicher mit der Java-Syntax umgehen können. 
 
 Beide Vergleichsgruppen waren bereits sicher im Umgang mit der Entwicklungsumgebung \emph{BlueJ} und hatten in unterschiedlichen Kontexten eigene Programmiererfahrungen mit Java machen können. Größere Schwierigkeiten beim eigenständigen Umgang mit Quellcode waren deshalb nicht zu erwarten.
@@ -115,9 +113,8 @@ Beide Vergleichsgruppen waren bereits sicher im Umgang mit der Entwicklungsumgeb
 \par \singlespacing
  \section{BlueJ}
 \onehalfspacing
-\todo{Hier wäre noch Spielraum...}
 \label{sec:bluej}
-Die Java-Entwicklungsumgebung BlueJ wurde an der Monash University in Australien mit dem Ziel entwickelt, eine Umgebung für Programmieranfänger mit einer einfachen Benutzerschnittstelle zu schaffen (Vgl. \cite[S.14]{barnes:03}). \textsc{Barnes} und \textsc{Kölling} betonen die besondere Geeignetheit von BlueJ in der Lehre und führen diese auf die native Visualisierung der Klassenstruktur und die damit einhergehende Möglichkeit, mit den Objekten direkt zu interagieren, "`ohne Testklassen schreiben zu müssen"' (Vgl. \cite[S.15]{barnes:03}). 
+Die Java-Entwicklungsumgebung BlueJ wurde an der Monash University in Australien mit dem Ziel entwickelt, eine Umgebung für Programmieranfänger mit einer einfachen Benutzerschnittstelle zu schaffen (vgl. \cite[S.14]{barnes:03}). \textsc{Barnes} und \textsc{Kölling} betonen die besondere Geeignetheit von BlueJ in der Lehre und führen diese auf die native Visualisierung der Klassenstruktur und die damit einhergehende Möglichkeit, mit den Objekten direkt zu interagieren, "`ohne Testklassen schreiben zu müssen"' (vgl. \cite[S.15]{barnes:03}). Es handelt sich hierbei um eine vollwertige Entwicklungsumgebung, die auf dem aktuellen Java Development Kit (JDK) läuft und als Compiler und virtuelle Maschine (JVM) Software der Firma Oracle (bis 2010 Sun Microsystems) verwendet (ebd.).
 
 %Es handelt sich jedoch bei der Entwicklung objektorientierter Programme mit BlueJ keinesfalls um die Benutzung einer reduzierten Version von Java. BlueJ läuft, wie andere Entwicklungsumgebungen, auf dem aktuellen Java Development Kit (JDK). Auch als Compiler und virtuelle Maschine (JVM) wird Software der Firma Oracle (bis 2010 Sun Microsystems) verwendet (Vgl. \cite[S.15]{barnes:03}).
 
@@ -133,13 +130,12 @@ Die Java-Entwicklungsumgebung BlueJ wurde an der Monash University in Australien
 \par \singlespacing
  \section{Bausteine der Unterrichtsplanung und Didaktische Entscheidungen}
 \onehalfspacing
-Unter "`Programmieren"' im klassischen Sprachgebrauch wird immer ein Am-PC-Sitzen und Quellcode schreiben verstanden. Die Informatik und insbesondere der Teilbereich der Objektorientierten Programmierung hat in jedoch weiten Teilen der Lehre bereits den Anspruch, syntaxübergreifende Konzepte anstatt primitivem (Programmier-)Sprachenverständnis zu vermitteln. \todo{Hier wäre eine Quelle schön} Aus diesem Grunde wurden die SuS bei der Unterrichtseinheit angeregt, den Abstraktionsschritt vom Quelltext zum spielerischen physischen Ausprobieren des Programmierparadigmas \emph{Schleifen} zu vollziehen. Sie sollten das Schema eines Schleifenkonstrukts nicht nur verstehen, sondern auch nachempfinden und -- mit einem Ausblick auf das folgende Semesterthema \emph{Algorithmen und Datenstrukturen} -- ein Gefühl dafür entwickeln, dass mehrere Einzelschritte für die Ausführung der Anweisung bis zum Ergebnis notwendig sind.  
+Unter "`Programmieren"' im klassischen Sprachgebrauch wird immer ein Am-PC-Sitzen und Quellcode schreiben verstanden. Die Informatik und insbesondere der Teilbereich der Objektorientierten Programmierung hat jedoch in weiten Teilen der Lehre bereits den Anspruch, syntaxübergreifende Konzepte anstatt primitivem (Programmier-)Sprachenverständnis zu vermitteln. \todo{Hier wäre eine Quelle schön} Aus diesem Grunde wurden die SuS bei der Unterrichtseinheit angeregt, den Abstraktionsschritt vom Quelltext zum spielerischen physischen Ausprobieren des Programmierparadigmas \emph{Schleifen} zu vollziehen. Sie sollten das Schema eines Schleifenkonstrukts nicht nur verstehen, sondern auch nachempfinden und -- mit einem Ausblick auf das folgende Semesterthema \emph{Algorithmen und Datenstrukturen} -- ein Gefühl dafür entwickeln, dass mehrere Einzelschritte für die Ausführung der Anweisung bis zum Ergebnis notwendig sind.  
 Die Unterrichtseinheit zum Lerngegenstand Schleifenkonstrukte besteht aus zwei Bausteinen, die inhaltlich ineinandergreifen, jedoch didkatisch und methodisch andere lerntheoretische Ansätze verfolgen. 
 
 Der erste Baustein besteht aus einem BlueJ-Projekt, welches ich durch meine Tätigkeit als Übungsgruppenbetreuerin an der Universität Hamburg kennengelernt habe. Dieses Projekt ist an das Lehrbuch zur Objektorientierten Programmierung mit Java und BlueJ von \textsc{Barnes} und \textsc{Kölling} angelehnt und versucht, über kurze Methodenrümpfe, die von den Lernenden analysiert werden sollen, verschiedene Arten von Schleifenkonstrukten zu vermitteln.\\
-Zusätzlich zu diesem Kurzprojekt haben die SuS ein Arbeitsblatt mit verschiedenen Aufträgen bekommen, welche sie schrittweise durch das Projekt führen sollten (Vgl. Anhang \textbf{A}).
-
-Den zweiten Baustein haben sich die SuS jeweils eigenständig erarbeitet: Auf Grundlage ihrer basalen Syntaxkenntnisse haben die SuS in Gruppen verschiedene leere Schleifenkonstrukte in Java bekommen, deren Ablauf sie jeweils zunächst analysieren und dann in Form einer interaktiven Gruppenpräsentation darstellen sollten. Hierbei war es den SuS freigestellt, welche Hilfmittel sie dazu einsetzen und welche Aktivitäten vorgeführt werden können. Es sollte lediglich deutlich werden, wie die von ihnen vorgestellte Sequenz von Anweisungen mit der von ihnen ausgewählten \emph{for-, while-} oder \emph{do-while-}Schleife im Zusammenhang steht.
+Zusätzlich zu diesem Kurzprojekt haben die SuS ein Arbeitsblatt mit verschiedenen Aufträgen bekommen, welche sie schrittweise durch das Projekt führen sollten (vgl. Anhang \textbf{A}).\\
+Den zweiten Baustein haben sich die SuS jeweils eigenständig erarbeitet: Auf Grundlage ihrer basalen Syntaxkenntnisse haben die SuS in Gruppen verschiedene leere Schleifenkonstrukte in Java bekommen, deren Ablauf sie jeweils zunächst analysieren und dann in Form einer interaktiven Gruppenpräsentation darstellen sollten. Hierbei war es den SuS freigestellt, welche Hilfsmittel sie dazu einsetzen und welche Aktivitäten vorgeführt werden können. Es sollte lediglich deutlich werden, wie die von ihnen vorgestellte Sequenz von Anweisungen mit der von ihnen ausgewählten \emph{for-, while-} oder \emph{do-while-}Schleife im Zusammenhang steht.
 
 
 
@@ -147,10 +143,9 @@ Den zweiten Baustein haben sich die SuS jeweils eigenständig erarbeitet: Auf Gr
  \section{Vorgehensweise und Methodische Entscheidungen}
  \label{sec:vorgehensweisen}
 \onehalfspacing
-
-Die beiden Bausteine wurden zum Zweck eines produktiven Vergleichs in jeweils umgekehrter Reihenfolge mit den Vergleichsgruppen durchgeführt. So hat Vergleichsgruppe \textsc{\textbf{A}} zunächst mit der interaktiven Vorführung, also dem enaktiven Ansatz, begonnen und sich danach mit dem BlueJ-Projekt beschäftigt -- der Vergleichsgruppe \textsc{\textbf{B}} wurde zuerst der Quelltext und das Arbeitsblatt ausgegeben, mit deren Erarbeitung sie in Partnerarbeit und ohne weitere Einhilfen begonnen haben. 
-
-Zweck der Variation der Vorgehensweise war mein Interesse an der Effektivität und dem Einfluss des Arbeitsauftrags zur freien Präsentation der Schleifenkonstrukte, also des Lernens durch \emph{Bewegungshandlungen} (Vgl. \cite[S.183f.]{aebli:11}) auf das Grundverständnis des Programmierparadigmas.
+\enlargethispage{2ex}
+Die beiden Bausteine wurden zum Zweck eines produktiven Vergleichs in jeweils umgekehrter Reihenfolge mit den Vergleichsgruppen durchgeführt. So hat Vergleichsgruppe \textsc{\textbf{B}} zunächst mit der interaktiven Vorführung, also dem enaktiven Ansatz, begonnen und sich danach mit dem BlueJ-Projekt beschäftigt -- der Vergleichsgruppe \textsc{\textbf{A}} wurde zuerst der Quelltext und das Arbeitsblatt ausgegeben, mit deren Erarbeitung sie in Partnerarbeit und ohne weitere Einhilfen begonnen haben. \\
+Zweck der Variation der Vorgehensweise war mein Interesse an der Effektivität und dem Einfluss des Arbeitsauftrags zur freien Präsentation der Schleifenkonstrukte, also des Lernens durch \emph{Bewegungshandlungen} (vgl. \cite[S.183f.]{aebli:11}) auf das Grundverständnis des Programmierparadigmas.
 
 
 
@@ -174,7 +169,7 @@ Die analysierenden Aufgabenteile (1--3) wurden von den SuS ohne Probleme bearbei
 \end{itemize}
 \onehalfspacing
 
-Eine deutlich größere Motivation auf Seiten der SuS war in der Unterrichtsstunde mit der Erarbeitung einer Vorführung zu den Schleifenkonstrukten festzustellen. Die SuS haben mit sehr viel Engagement verschiedenste Präsentationen erarbeitet und gezeigt, dass sie die Konzepte der drei Schleifentypen grundsätzlich gut verstanden haben. Auch war bei dieser Methodenwahl zu sehen, dass sowohl die Schwächeren als auch die Stärkeren ihre Ideen gleichermaßen gut einbringen und umsetzen konnten.
+Eine deutlich größere Motivation auf Seiten der SuS war in der Unterrichtsstunde mit der Erarbeitung einer Vorführung zu den Schleifenkonstrukten festzustellen. Die SuS haben mit sehr viel Engagement verschiedenste Präsentationen erarbeitet und gezeigt, dass sie die Konzepte der drei Schleifentypen grundsätzlich gut verstanden haben. Auch war bei dieser Methodenwahl zu sehen, dass sowohl die schwächeren als auch die stärkeren SuS ihre Ideen gleichermaßen gut einbringen und umsetzen konnten.
 Der zweite Lernansatz, der in dieser Vergleichsgruppe eher einen vertiefenden und überprüfenden Charakter hatte, fand bei SuS verschiedener Leistungsbereiche Anklang.
 
 Auf Nachfrage, ob die Vorführungen als lernförderlich oder lernhinderlich wahrgenommen wurde, bekam ich von der gesamten Gruppe ein positives Feedback und insbesondere von SuS, die bei den BlueJ-Aufgaben an ihre Grenzen gestoßen sind, wurde angemerkt, dass die vorgestellten konkreten Beispiele ihr Verständnis der Schleifenkonstrukte gefördert haben.
@@ -184,12 +179,16 @@ Auf Nachfrage, ob die Vorführungen als lernförderlich oder lernhinderlich wahr
 
 Die SuS dieser Gruppe waren der Aufgabenstellung gegenüber merklich offener und schienen einen besseren Zugang zum Lerngegenstand zu haben als bei den vorangegangenen Unterrichtsstunden, in denen eher mit Projekten vom Typ des ersten Bausteins gearbeitet wurde. Die Entfernung von der Syntax und dem Computer selbst war für die SuS eine willkommene Abwechslung und hat die Herausforderung, mit einem neuen Programmierparadigma in Berührung zu kommen, wesentlich erleichtert.
 
-Durch die sehr offen gehaltene Aufgabenstellung des zweiten Bausteins kam es allerdings bereits an dieser Stelle zu Beispielen von Schleifenkonstrukten, die zwar von den SuS klar zu einem Typ zugeordnet werden konnten, aber auch Raum für Diskussion zu spezifischen Randfällen geöffnet haben. 
+Die Bearbeitung des BlueJ-Projekts stellte jedoch in dieser Gruppe für viele SuS wieder eine Herausforderung dar. Die SuS kamen mit dem Analysieren des Quellcodes zurecht, jedoch wurde von kaum einer/m der SuS die vierte Aufgabe erfolgreich bearbeitet. 
 
+Zur Reihenfolge der Bausteine gab es sehr unterschiedliche Schüleraussagen. Einige empfanden den Einstieg in den Lerngegenstand durch das handelnde Lernen als sehr anregend und förderlich, um hinterher in den Quellcode einzusteigen -- für manche SuS stellte die Programmieraufgabe kein größeres Problem dar und trotzdem sind Rückmeldungen wie die folgenden in der Nachbesprechung geäußert worden:
 
-- Reihenfolge (Präferenz) stark v individ. SuS abhängig\\
-- EA von allen SuS als förderlich wahrgenommen\\
-
+\singlespacing
+\begin{itemize}
+\item "`Das hat mir geholfen, nochmal zu sehen, ob ich das alles richtig verstanden habe."'
+\item "`In BlueJ war das ja nicht so deutlich zu sehen."'
+\end{itemize}
+\onehalfspacing
 
 
 \par \singlespacing
@@ -199,13 +198,38 @@ Durch die sehr offen gehaltene Aufgabenstellung des zweiten Bausteins kam es all
 \par \singlespacing
 \subsection*{Allgemeindidaktische Aspekte}
 \onehalfspacing
-Betrachtet man die Arbeitsaufträge, so sieht man, dass die spezifischen Vorteile von BlueJ genutzt werden, um die SuS mit dem Quellcode interagieren zu lassen: Sie sollen verschiedene Beispiele ausführen und dabei auf die jeweiligen Rückgaben des Programms achten. Die SuS werden demnach aufgefordert, die informatischen Vorgänge zu \emph{beobachten} (s. hierzu auch \cite[S.67ff.]{aebli:11}). Des weiteren ist bei dem gestellten Arbeitsauftrag der Fokus nicht nur auf der Funktionsweise der Schleifenkonstrukte, sondern auch auf der konkreten Implementationsstruktur, da die SuS aufgefordert sind, selbst eine Aufgabe mithilfe einer auszuwählenden und zu implementierenden Schleife zu lösen. \todo{Weiterführen}
 
-- Enaktiver Asnatz bietet viel Spielraum für sehr spezifische Randfälle\\
-- EA fördert kreativen Umgang und Durcharbeiten von trockener Syntax\\
-- Bei Vorstellung des EA durch SUS direkte Diskussionsmöglichkeiten -> Mehr Zeit für den Vergleich der Lösungen einplanen, um tieferes Verständnis zu fördern\\
-- PA setzt Syntaxkenntnisse voraus\\
-- vorgegebene Konstrukte müssen analysiert und verstanden werden\\
+(Guter) Unterricht und dessen Durchführung ist ein Aspekt des Lehrerhandelns, der sowohl in neueren als auch älteren Publikationen zu allgemein- und fachdidaktischen Themen zu finden ist. \textsc{Meyer} hat sich ausführlich mit dem Thema \emph{Was ist guter Unterricht?} beschäftigt, und die entwickelten Gedanken wurden unter anderem von \textsc{Barzel et al.} als Kriterien für guten Unterricht unter verschiedenen Gesichtspunkten festgehalten (vgl. \cite[S.24f.]{barzel:16}):
+\singlespacing
+\begin{enumerate}
+\item \textbf{\emph{Methoden}: Methodenvielfalt und -variabilität}
+\item \textbf{\emph{Fachliche Prozesse}: Inhaltliche Klarheit}
+\item \textbf{\emph{Heterogenität}: Individuelles Fördern}
+\item \emph{Bewertung}: Transparente Leistungserwartung
+\item \emph{Kommunikation}: Gesprächskultur
+\item \textbf{\emph{Verantwortung/Kooperation}: Verantwortungsübernahme}
+\item \textbf{\emph{Vernetzung/Sinnstiftung}: vertikale Vernetzung, passgenaues, gezieltes Üben}
+\end{enumerate}
+
+\onehalfspacing
+
+In Bezug auf die \emph{Methoden} ist festzustellen, dass diese zwar unterschiedlich waren, die Methode der Bearbeitung des BlueJ-Projekts jedoch ein für die SuS gewohnter und in den vorangegangenen Stunden immer wieder durchgeführter Arbeitsauftrag war. Die Anlage der beiden Methoden bietet generell eine geeignete Variablität für den Einsatz in dieser Unterrichtseinheit, da auch andere Programmierparadigmen derart vermittelt wurden\footnote{Die BlueJ-Projekte wurden bei der Durchführung dieser Unterrichtseinheit standardmäßig eingesetzt} oder in Zukunft vermittelt werden können (vgl. Abschnitt \ref{schlussfolgerungen}).
+
+Die \emph{inhaltliche Klarheit} war in dem BlueJ-Projekt deutlich erkennbar, da auch die Arbeitsaufträge auf den Quellcode zugeschnitten waren. Bei der enaktiven Erarbeitung war ein hoher Grad an Offenheit in mehreren Dimensionen erkennbar, so dass die SuS sowohl auf dem \emph{Weg} zu ihrem Ergebnis als auch bei dem \emph{Ziel} allein handeln und entscheiden mussten. Dies hat dazu geführt, dass es zu Beispielen von Schleifenkonstrukten kam, die zwar von den SuS klar zu einem Typ zugeordnet werden konnten, aber auch Raum für Diskussion zu spezifischen Randfällen geöffnet haben. Die Präsentationen stellten eher Spezialfälle von Schleifen dar, so dass an dieser Stelle eine Nachjustierung des Arbeitsauftrags stattfinden müsste. Der Grad der Offenheit hat allerdings auch einen guten Spielraum für die \emph{individuelle Förderung} der SuS eröffnet: Schwache SuS konnten Informatik greifbar machen und erleben, starke SuS haben dabei überfachliche Sozialkompetenzen trainiert und auf fachlicher Ebene diskutiert. Dies hat gleichzeitig auch die \emph{Verantwortungsübernahme} einiger SuS gestärkt. Anzumerken ist jedoch, dass für eine sinnvolle Förderung dieses Aspekts eine gezielte, eher homogen strukturierte Einteilung der Arbeitsgruppen notwendig wäre, um auch bei leistungsschwächeren SuS ein Verantwortungsgefühl für ihr Arbeitsergebnis hervorzurufen.
+
+Ergänzend sind noch einige der acht Prinzipien didaktischen Handelns nach \textsc{Hubwieser} erwähnenswert, da diese einen weiteren kritischen Blickwinkel eröffnen (vgl. \cite[S.15ff.]{hubwieser:07}):
+
+Die \emph{Motivation} der SuS war bei den beiden Unterrichtsbausteinen unterschiedlich stark ausgeprägt. Während die Erarbeitung einer Präsentation insgesamt zu einer hohen Schülermotivation führte, war bei der Arbeit mit dem BlueJ-Projekt eine eher verhaltene Stimmung wahrzunehmen. Diejenigen, die schon zu früheren Zeitpunkten gern mit dem Quellcode gearbeitet haben, empfanden die Aufgabe als eine kleine Herausforderung, um zu überprüfen, wie weit sie nun gekommen waren. Es war bei den nicht-programmieraffinen SuS aber auch eine unbefriedigend schwache Motivation festzustellen. Dies könnte zum einen daran gelegen haben, dass diese SuS generell Schwierigkeiten im Umgang mit Quellcode hatten, aber auch daran, dass sie sich insbesondere mit Aufgabe 4 überfordert fühlten und so in eine resignierte Arbeitshaltung übergegangen sind. 
+
+Die Präsentation der Schleifenkonstrukte hat zur \emph{Kreativitätsförderung} der SuS beigetragen, da ein abstrakter informatischer Programmieraspekt sinnvoll veranschaulicht werden sollte. Die o.g. Offenheit des Ergebnisses hat dazu geführt, dass die SuS kreative Lösungsideen anbringen, diskutieren und umsetzen konnten. Diesem Anspruch konnte das BlueJ-Projekt leider nicht genügen und es stellt sich bereits an diesem Punkt die Frage, in wie weit die Aufgabenstellung sinnvoll verändert werden könnte\footnote{Eine sinnvolle Veränderung der Aufgabenstellung bezieht auch den Aspekt mit ein, dass insbesondere die schwächeren SuS sich nicht "`allein gelassen"' fühlen und trotzdem ein gewisses Maß an Offenheit vorhanden sein muss.}.
+%
+%Betrachtet man die Arbeitsaufträge, so sieht man, dass die spezifischen Vorteile von BlueJ genutzt werden, um die SuS mit dem Quellcode interagieren zu lassen: Sie sollen verschiedene Beispiele ausführen und dabei auf die jeweiligen Rückgaben des Programms achten. Die SuS werden demnach aufgefordert, die informatischen Vorgänge zu \emph{beobachten} (s. hierzu auch \cite[S.67ff.]{aebli:11}). Des weiteren ist bei dem gestellten Arbeitsauftrag der Fokus nicht nur auf der Funktionsweise der Schleifenkonstrukte, sondern auch auf der konkreten Implementationsstruktur, da die SuS aufgefordert sind, selbst eine Aufgabe mithilfe einer auszuwählenden und zu implementierenden Schleife zu lösen. 
+
+%- Enaktiver Asnatz bietet viel Spielraum für sehr spezifische Randfälle\\
+%- EA fördert kreativen Umgang und Durcharbeiten von trockener Syntax\\
+%- Bei Vorstellung des EA durch SUS direkte Diskussionsmöglichkeiten -> Mehr Zeit für den Vergleich der Lösungen einplanen, um tieferes Verständnis zu fördern\\
+%- PA setzt Syntaxkenntnisse voraus\\
+%- vorgegebene Konstrukte müssen analysiert und verstanden werden\\
 
 
 \par \singlespacing
@@ -216,6 +240,7 @@ Fällt der Umgang mit Programmiersprachen und -konzepten leichter, wenn neben de
 
 \par \singlespacing
 \chapter{Schlussfolgerungen für die Unterrichtseinheit}
+\label{schlussfolgerungen}
 \onehalfspacing
 
 Aufgrund der Untersuchung und Reflexion der Praxissituation werden die daraus resultierenden Konsequenzen und Fragestellungen nun in einer Alternativkonzeption der Unterrichtsstunde zum Einen und mithilfe von Schlussfolgerungen für die gesamte Unterrichtseinheit der \emph{OOP/OOM} zum Anderen verarbeitet \todo{hier fehlt noch ein schöner Halbsatz}
