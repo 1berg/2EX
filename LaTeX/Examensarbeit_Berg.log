@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.24)  4 NOV 2017 13:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.24)  4 NOV 2017 14:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1549,72 +1549,72 @@ Package babel Info: Redefining ngerman shorthand "~
 Underfull \vbox (badness 1308) has occurred while \output is active []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 242.
+(babel)             in language  on input line 240.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 242.
+(babel)             in language  on input line 240.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 242.
+(babel)             in language  on input line 240.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 242.
+(babel)             in language  on input line 240.
  [10]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 242.
+(babel)             in language  on input line 260.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 242.
+(babel)             in language  on input line 260.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 242.
+(babel)             in language  on input line 260.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 242.
+(babel)             in language  on input line 260.
 
 [11]
 Kapitel 5.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 242.
+(babel)             in language  on input line 260.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 242.
+(babel)             in language  on input line 260.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 253.
+(babel)             in language  on input line 271.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 253.
+(babel)             in language  on input line 271.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 253.
+(babel)             in language  on input line 271.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 253.
+(babel)             in language  on input line 271.
 [12
 
 ]
 Kapitel 6.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 254.
+(babel)             in language  on input line 272.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 254.
-<images/NXT-Stein.png, id=195, 348.30125pt x 234.8775pt>
+(babel)             in language  on input line 272.
+<images/NXT-Stein.png, id=204, 348.30125pt x 234.8775pt>
 File: images/NXT-Stein.png Graphic file (type png)
 
 <use images/NXT-Stein.png>
-Package pdftex.def Info: images/NXT-Stein.png used on input line 259.
+Package pdftex.def Info: images/NXT-Stein.png used on input line 277.
 (pdftex.def)             Requested size: 243.8092pt x 164.41312pt.
 
 
-LaTeX Warning: Citation `berns:10' on page 13 undefined on input line 260.
+LaTeX Warning: Citation `berns:10' on page 13 undefined on input line 278.
 
 
-LaTeX Warning: Citation `berns:10' on page 13 undefined on input line 260.
+LaTeX Warning: Citation `berns:10' on page 13 undefined on input line 278.
 
-<images/linienfinder_bluej.png, id=197, 1146.2825pt x 962.59625pt>
+<images/linienfinder_bluej.png, id=206, 1146.2825pt x 962.59625pt>
 File: images/linienfinder_bluej.png Graphic file (type png)
 
 <use images/linienfinder_bluej.png>
-Package pdftex.def Info: images/linienfinder_bluej.png used on input line 266.
+Package pdftex.def Info: images/linienfinder_bluej.png used on input line 284.
 (pdftex.def)             Requested size: 409.71974pt x 344.0668pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 274.
+(babel)             in language  on input line 292.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 274.
+(babel)             in language  on input line 292.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 274.
+(babel)             in language  on input line 292.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 274.
+(babel)             in language  on input line 292.
  [13
 
  <./images/NXT-Stein.png>]
@@ -1628,90 +1628,101 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
  [14 <./images/linienfinder_bluej.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+[][][]\T1/ptm/m/n/10.95 (+20) Claus Al-bow-ski. \T1/ptm/m/it/10.95 (+20) Gra-fi
+k-sys-te-me am Bei-spiel ei-nes Raum-pla-ners\T1/ptm/m/n/10.95 (+20) ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+[]$[][]\T1/ptm/m/n/10.95 (+20) http : / / www . informatik-[]hamburg . de / pmw
+iki . php / ObjektOrientierung /
+ []
+
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 47.
+(babel)             in language  on input line 45.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 47.
+(babel)             in language  on input line 45.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 47.
+(babel)             in language  on input line 45.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 47.
- [15
+(babel)             in language  on input line 45.
+[15
 
 ])
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 276.
+(babel)             in language  on input line 294.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 276.
+(babel)             in language  on input line 294.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 276.
+(babel)             in language  on input line 294.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 276.
+(babel)             in language  on input line 294.
  [16]
-<images/AB_Schleifenkonstrukte.png, id=225, 596.9502pt x 844.98083pt>
+<images/AB_Schleifenkonstrukte.png, id=236, 596.9502pt x 844.98083pt>
 File: images/AB_Schleifenkonstrukte.png Graphic file (type png)
 
 <use images/AB_Schleifenkonstrukte.png>
-Package pdftex.def Info: images/AB_Schleifenkonstrukte.png used on input line 2
-82.
+Package pdftex.def Info: images/AB_Schleifenkonstrukte.png used on input line 3
+00.
 (pdftex.def)             Requested size: 382.49315pt x 541.40024pt.
 
 Overfull \vbox (35.6228pt too high) has occurred while \output is active []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 284.
+(babel)             in language  on input line 302.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 284.
+(babel)             in language  on input line 302.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 284.
+(babel)             in language  on input line 302.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 284.
+(babel)             in language  on input line 302.
 
 [17 <./images/AB_Schleifenkonstrukte.png>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 284.
+(babel)             in language  on input line 302.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 284.
+(babel)             in language  on input line 302.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 284.
+(babel)             in language  on input line 302.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 284.
+(babel)             in language  on input line 302.
  [18
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 288--289
+Underfull \hbox (badness 10000) in paragraph at lines 306--307
 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 292.
+(babel)             in language  on input line 310.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 292.
+(babel)             in language  on input line 310.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 292.
+(babel)             in language  on input line 310.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 292.
+(babel)             in language  on input line 310.
 [19]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 292.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 292.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 310.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 310.
  (./Examensarbeit_Berg.aux (./titlepage.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 292.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 292.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 310.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 310.
 Package rerunfilecheck Info: File `Examensarbeit_Berg.out' has not changed.
 (rerunfilecheck)             Checksum: D890E4BB9B127135A6F45CCB1E299439;1104.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 292.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 310.
  ) 
 Here is how much of TeX's memory you used:
- 22304 strings out of 493089
- 406582 string characters out of 6134841
- 663472 words of memory out of 5000000
- 25008 multiletter control sequences out of 15000+600000
- 93959 words of font info for 252 fonts, out of 8000000 for 9000
+ 22317 strings out of 493089
+ 406700 string characters out of 6134841
+ 663504 words of memory out of 5000000
+ 25009 multiletter control sequences out of 15000+600000
+ 94293 words of font info for 256 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,27n,122p,1434b,829s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exi
@@ -1729,10 +1740,10 @@ ive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/t
 exmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2015/texmf-dist
 /fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
 e1/urw/times/utmri8a.pfb>
-Output written on Examensarbeit_Berg.pdf (21 pages, 513002 bytes).
+Output written on Examensarbeit_Berg.pdf (21 pages, 516887 bytes).
 PDF statistics:
- 277 PDF objects out of 1000 (max. 8388607)
- 240 compressed objects within 3 object streams
- 70 named destinations out of 1000 (max. 500000)
+ 290 PDF objects out of 1000 (max. 8388607)
+ 253 compressed objects within 3 object streams
+ 77 named destinations out of 1000 (max. 500000)
  35996 words of extra memory for PDF output out of 42996 (max. 10000000)
 
