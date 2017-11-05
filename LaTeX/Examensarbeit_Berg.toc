@@ -6,12 +6,12 @@
 \contentsline {subsection}{\numberline {2.1.2}Curriculum des Gymnasium Ohmoor}{3}{subsection.2.1.2}
 \contentsline {section}{\numberline {2.2}Inhaltliche Ziele}{3}{section.2.2}
 \contentsline {section}{\numberline {2.3}Lerngruppen}{4}{section.2.3}
-\contentsline {chapter}{\numberline {3}Die Praxissituation}{5}{chapter.3}
-\contentsline {section}{\numberline {3.1}BlueJ}{5}{section.3.1}
-\contentsline {section}{\numberline {3.2}Bausteine der Unterrichtsplanung und Didaktische Entscheidungen}{5}{section.3.2}
-\contentsline {section}{\numberline {3.3}Vorgehensweise und Methodische Entscheidungen}{6}{section.3.3}
-\contentsline {chapter}{\numberline {4}Reflexion der Herangehensweisen}{7}{chapter.4}
-\contentsline {section}{\numberline {4.1}Kritische Betrachtung}{7}{section.4.1}
-\contentsline {section}{\numberline {4.2}Analyse und resultierende Fragestellung}{9}{section.4.2}
-\contentsline {chapter}{\numberline {5}Schlussfolgerungen f\IeC {\"u}r die Unterrichtseinheit}{12}{chapter.5}
-\contentsline {chapter}{\numberline {6}Fazit und Ausblick}{13}{chapter.6}
+\contentsline {chapter}{\numberline {3}Die Praxissituation}{6}{chapter.3}
+\contentsline {section}{\numberline {3.1}BlueJ}{6}{section.3.1}
+\contentsline {section}{\numberline {3.2}Bausteine der Unterrichtsplanung und Didaktische Entscheidungen}{6}{section.3.2}
+\contentsline {section}{\numberline {3.3}Vorgehensweise und Methodische Entscheidungen}{8}{section.3.3}
+\contentsline {chapter}{\numberline {4}Reflexion der Herangehensweisen}{9}{chapter.4}
+\contentsline {section}{\numberline {4.1}Kritische Betrachtung}{9}{section.4.1}
+\contentsline {section}{\numberline {4.2}Analyse der Unterrichtssituationen}{11}{section.4.2}
+\contentsline {chapter}{\numberline {5}Schlussfolgerungen f\IeC {\"u}r die Unterrichtseinheit}{16}{chapter.5}
+\contentsline {chapter}{\numberline {6}Fazit und Ausblick}{19}{chapter.6}
